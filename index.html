@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Águila's Pilot-Barquisimeto</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="icon" type="image/x-icon" href="imagenes/LOGO AP.jpg">
+</head>
+<body class="opcion-3">
+
+  <!-- inicio del encabezado y barra de navegacion fija -->
+  <header class="header-sticky">
+    <div class="logo-container">
+      <img id="logoizquierdo" src="imagenes/LOGO AP.jpg" alt="Logo Águila's Pilot">
+      <div class="letraizquier">
+        <div class="logo">ÁGUILA'S <span>PILOT</span></div>
+        <div class="logo-sub">Centro de Instrucción Aeronáutica</div>
+      </div>
+    </div>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#historia">Nosotros</a>
+      <a href="#cursos">Programas</a>
+      <a href="#envianos-un-mensaje">Ubicación y Contacto</a>
+    </nav>
+  </header>
+  <!-- fin del encabezado -->
+
+  <!-- inicio de la seccion principal o hero con carrusel de fondo -->
+  <section id="inicio" class="hero-minimal">
+    <div class="hero-overlay">
+      <img id="logocentral" src="imagenes/LOGO AP.jpg" alt="Logo Central Águila's Pilot">
+      <h1>CENTRO DE INSTRUCCIÓN AERONÁUTICA</h1>
+      <p>Eleva Tu Futuro En El Mundo De La Aviación</p>
+      <div class="hero-buttons">
+        <a href="#cursos" class="btn-yellow">Conoce Nuestros Cursos</a>
+      </div>
+    </div>
+  </section>
+  <!-- fin de la seccion principal -->
+
+  <!-- inicio de la seccion nosotros (historia, video incrustado y mision/vision) -->
+  <section id="historia" class="section-history">
+    <div class="history-content">
+      <h2>Nuestra Historia</h2>
+      <div class="line-gold"></div>
+      <p class="history-subtitle">Pasión por la aviación y compromiso con Venezuela</p>
+
+      <p class="history-text">
+        Fundada en 2013 por el Capitán Dagoberto Valdez, la Escuela de Aviación <strong>Águila’s Pilot</strong> se ha consolidado como un centro de instrucción aeronáutica de referencia en Venezuela. Durante más de una década, ha formado pilotos y tripulantes de cabina que hoy forman parte de las principales aerolíneas nacionales e internacionales.
+      </p>
+      
+      <h3 id="vuelo-nocturno" style="margin-top: 25px; font-size: 1.1rem; color: var(--negro);">SOMOS LA UNICA ESCUELA A NIVEL NACIONAL QUE REALIZA HORAS DE VUELO NOCTURNO</h3>
+    </div>
+      <!-- contenedor del video -->
+      <div class="instagram-video-container">
+        <video class="video-responsivo" controls preload="metadata" playsinline>
+          <source src="video/Aguilas Pilot-compressed.mp4" type="video/mp4">
+          Error al reproducir video.
+        </video>
+      </div>
+
+    <!-- inicio de bloques divididos de mision y vision -->
+    <div class="split-section-integrated">
+      <div id="mision" class="split-box dark-side">
+        <h2>Misión</h2>
+        <p>Proporcionar una educación aeronáutica con estándares de vanguardia, promoviendo destrezas técnicas, seguridad operacional y disciplina profesional.</p>
+      </div>
+      <div class="split-box yellow-side">
+        <h2>Visión</h2>
+        <p>Ser la academia de aviación preferida a nivel nacional por la calidad académica y la preparación superior de nuestros estudiantes.</p>
+      </div>
+    </div>
+    <!-- fin de bloques divididos -->
+  </section>
+  <!-- fin de la seccion nosotros -->
+
+  <!-- inicio de la seccion de programas academicos -->
+  <section id="cursos" class="section-minimal">
+    <h2 class="title-center">Programas Académicos</h2>
+    <div class="cards-minimal-grid">
+
+      <!-- tarjeta 1: tripulante de cabina -->
+      <details class="min-card">
+        <img src="imagenes/tripulante de cabina.jpeg" alt="Tripulante de Cabina Águila's Pilot" class="card-img">
+        <summary>
+          <span class="tag">Programa</span>
+          <h3>Tripulante de Cabina <i class="fa-solid fa-chevron-down icono-desplegar"></i></h3>
+          <p class="resumen-corto">Formación completa teórica y práctica en vuelo comercial (solo en Maturin).</p>
+        </summary>
+        <div class="contenido-desplegable">
+          <p><strong>Duración:</strong> 3 meses.</p>
+          <p><strong>Requisitos:</strong> Mayor de 18 años, bachiller finalizado, 1 fotografia reciente tipo carnet, fotocopia de la cedula, copia del titulo de bachiller y certificado médico aeronáutico.</p>
+          <p><strong>Incluye:</strong> Derecho aeronautico, Adoctrinamiento aeronautico, factores humanos de la aviacion, Higiene y medicina de la aviacion</p>
+        </div>
+      </details>
+
+      <!-- tarjeta 2: piloto comercial -->
+      <details class="min-card">
+        <img src="imagenes/piloto1.jpeg" alt="Piloto Comercial Águila's Pilot" class="card-img">
+        <summary>
+          <span class="tag">Programa</span>
+          <h3>Piloto Comercial <i class="fa-solid fa-chevron-down icono-desplegar"></i></h3>
+          <p class="resumen-corto">Preparación especializada en atención y seguridad de pasajeros.</p>
+        </summary>
+        <div class="contenido-desplegable">
+          <p><strong>Duración:</strong> 3 meses.</p>
+          <p><strong>Horas de vuelo:</strong> 20 horas de simulador, 170 horas de vuelos reales.</p>
+          <p><strong>Incluye:</strong> Habilitacion de vuelos por instrumentos, Evaluacion del INAC.</p>
+        </div>
+      </details>
+
+      <!-- tarjeta 3: piloto privado -->
+      <details class="min-card">
+        <img src="imagenes/piloto2.jpeg" alt="Piloto Privado Águila's Pilot" class="card-img">
+        <summary>
+          <span class="tag">Programa</span>
+          <h3>Piloto Privado <i class="fa-solid fa-chevron-down icono-desplegar"></i></h3>
+          <p class="resumen-corto">Fase inicial de vuelo para aviación general y recreativa.</p>
+        </summary>
+        <div class="contenido-desplegable">
+          <p><strong>Duración:</strong> 3 meses.</p>
+          <p><strong>Horas de vuelo:</strong> 10 horas de simulador, 40 horas de vuelo.</p>
+          <p><strong>Incluye:</strong> Aerodinámica básica, reglamentación aeronáutica, meteorología y maniobras de emergencia, Evaluacion del INAC.</p>
+        </div>
+      </details>
+
+      <!-- tarjeta 4: tecnico de mantenimiento -->
+      <details class="min-card">
+        <img src="imagenes/avion2.jpeg" alt="Técnico de Mantenimiento Águila's Pilot" class="card-img">
+        <summary>
+          <span class="tag">Programa</span>
+          <h3>Técnico de Mantenimiento <i class="fa-solid fa-chevron-down icono-desplegar"></i></h3>
+          <p class="resumen-corto">Especialización en sistemas mecánicos y de aviónica.</p>
+        </summary>
+        <div class="contenido-desplegable">
+          <p><strong>Duración:</strong> 18 meses.</p>
+          <p><strong>Perfil:</strong> Inspección, diagnóstico y reparación de estructuras y motores aeronáuticos.</p>
+          <p><strong>Incluye:</strong> Prácticas directas en hangar con aeronaves reales y certificación de seguridad.</p>
+        </div>
+      </details>
+
+    </div>
+  </section>
+  <!-- fin de la seccion de programas academicos -->
+
+  <!-- inicio de la seccion del formulario de contacto conectado a whatsapp -->
+  <section id="envianos-un-mensaje" class="section-form-container">
+    <form class="formulario-contacto" action="https://wa.me/584145796960" method="get" target="_blank">
+      <h3>Envíanos un mensaje</h3>
+
+      <div class="campo">
+        <label for="nombre">Nombre Completo:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ej. Juan Pérez" required>
+      </div>
+
+      <div class="campo">
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+      </div>
+
+      <div class="campo">
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="text" rows="4" placeholder="Escribe tu consulta aquí..." required></textarea>
+      </div>
+
+      <button type="submit" class="btn-primario btn-bloque">
+        <i class="fa-brands fa-whatsapp"></i> Enviar por WhatsApp
+      </button>
+    </form>
+  </section>
+  <!-- fin del formulario de contacto -->
+
+  <!-- inicio de la seccion de ubicacion, redes y mapa -->
+  <section id="contacto" class="section-dark-contact">
+    <h2>Ubicación y Redes Sociales</h2>
+    
+    <div class="social-icons-large">
+      <a href="https://www.instagram.com/aguilaspilot"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://wa.me/584145796960" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+    
+    <p id="direccion"><i class="fa-solid fa-location-dot"></i> Av. Vicente Landaeta Gil Barquisimeto Estado Lara Venezuela</p>
+    <iframe id="mapa" class="mapa-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.053133431871!2d-69.3571236414071!3d10.046108098119173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e8767417745951d%3A0xd77b209baf8faf2b!2sAguilas%20Pilot!5e0!3m2!1ses-419!2sve!4v1794946364026!5m2!1ses-419!2sve" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>  
+  </section>
+  <!-- fin de la seccion de ubicacion -->
+
+  <!-- checkbox oculto y etiqueta flotante para alternar entre modo oscuro y claro -->
+  <input type="checkbox" id="clarooscuro" class="botondecambio">
+    <label for="clarooscuro" class="botonflotante" title="Cambiar tema">
+        <span class="iconoluna">🌙</span>
+        <span class="iconosol">☀️</span>
+    </label>
+
+  <!-- pie de pagina -->
+  <footer class="footer-minimal">
+    <p>&copy; 2026 Águila's Pilot. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
